@@ -180,7 +180,7 @@ endfunction
 function! s:GenToc(markdownStyle)
     let l:headingLines = <SID>GetHeadingLines()
     let l:levels = []
-    let l:listItemChars = ['*']
+    let l:listItemChars = ['-']
 
     let g:GFMHeadingIds = {}
     
