@@ -236,15 +236,15 @@ function! s:GetIndentText()
 endfunction
 
 function! s:GetBeginFence(markdownStyle)
-    return "<!-- TOC -->"
+    return "<!-- TOC START -->"
 endfunction
 
 function! s:GetEndFence()
-    return "<!-- TOC -->"
+    return "<!-- TOC END -->"
 endfunction
 
 function! s:GetBeginFencePattern()
-    return "<!-- TOC -->"
+    return "<!-- TOC START -->"
 endfunction
 
 function! s:GetEndFencePattern()
