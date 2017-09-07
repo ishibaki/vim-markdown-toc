@@ -236,15 +236,15 @@ function! s:GetIndentText()
 endfunction
 
 function! s:GetBeginFence(markdownStyle)
-    return "<!-- vim-markdown-toc " . a:markdownStyle . " -->"
+    return "<!-- TOC -->"
 endfunction
 
 function! s:GetEndFence()
-    return "<!-- vim-markdown-toc -->"
+    return "<!-- TOC -->"
 endfunction
 
 function! s:GetBeginFencePattern()
-    return "<!-- vim-markdown-toc \\([[:alpha:]]\\+\\) -->"
+    return "<!-- TOC -->"
 endfunction
 
 function! s:GetEndFencePattern()
